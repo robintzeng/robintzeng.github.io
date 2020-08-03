@@ -236,9 +236,9 @@
   <meta property="twitter:image" content="https://robintzeng.github.io/project/cv/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-03-27T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2016-04-27T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-03-27T00:00:00&#43;00:00">
   
 
   
@@ -268,8 +268,8 @@
     "https://robintzeng.github.io/project/cv/featured.png"
   ],
   
-  "datePublished": "2016-04-27T00:00:00Z",
-  "dateModified": "2016-04-27T00:00:00Z",
+  "datePublished": "2020-03-27T00:00:00Z",
+  "dateModified": "2020-03-27T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -631,7 +631,7 @@
     
       
     
-    Apr 27, 2016
+    Mar 27, 2020
   </span>
   
 
@@ -711,7 +711,139 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>123</p>
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-fig-1-two-pathway">
+
+
+  <a data-fancybox="" href="/img/model.png" data-caption="Fig. 1 Two Pathway">
+
+
+  <img src="/img/model.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Fig. 1 Two Pathway
+  </figcaption>
+
+
+</figure>
+
+<p>We develop the learning architecture that can effectively complete the depth from a <strong>color image</strong> and <strong>sparse LiDAR</strong> data.<br> Our model consists of two
+pathways: the local pathway and the global pathway which is illustrated in Fig 1.<br>
+The local pathway aims to extract high-resolution features, and it is made up of 2D block, which is illustrated in Fig. 2(b). The global pathway extracts low-resolution features, and it comprises our proposed U-Block, as shown in Fig. 2(a). Also, we improve the
+performance of the local pathway by concatenating binary
+mask to the sparse LiDAR data, because the binary mask
+can help our model to indicate the valid values of sparse LiDAR data. Finally, to combine the results of the local and
+global pathways, we apply the attention mechanism(confidence map) to integrate the predicted dense from two pathways.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="/img/block.png" >
+
+
+  <img src="/img/block.png" alt=""  >
+</a>
+
+
+
+</figure>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="/img/pathway_struct.png" >
+
+
+  <img src="/img/pathway_struct.png" alt=""  >
+</a>
+
+
+
+</figure>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="/img/confidence.png" >
+
+
+  <img src="/img/confidence.png" alt=""  >
+</a>
+
+
+
+</figure>
+
 
     </div>
 

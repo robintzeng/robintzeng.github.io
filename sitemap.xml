@@ -4,6 +4,57 @@
   
   <url>
     <loc>https://robintzeng.github.io/</loc>
+    <lastmod>2018-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/tag/eurobot/</loc>
+    <lastmod>2018-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/project/eurobot/</loc>
+    <lastmod>2018-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/project/</loc>
+    <lastmod>2018-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/tags/</loc>
+    <lastmod>2018-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/tag/depth-completion/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/project/cv/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/tag/exoskeleton/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/project/exo/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/tag/mobile-robotics/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/project/mobile/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -15,7 +66,7 @@
   </url>
   
   <url>
-    <loc>https://robintzeng.github.io/author/nelson-bighetti/</loc>
+    <loc>https://robintzeng.github.io/author/jing-an-tzeng/</loc>
   </url>
   
   <url>
@@ -32,10 +83,6 @@
   
   <url>
     <loc>https://robintzeng.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://robintzeng.github.io/tags/</loc>
   </url>
   
 </urlset>

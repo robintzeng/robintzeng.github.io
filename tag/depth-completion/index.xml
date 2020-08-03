@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Depth Completion | </title>
+    <link>https://robintzeng.github.io/tag/depth-completion/</link>
+      <atom:link href="https://robintzeng.github.io/tag/depth-completion/index.xml" rel="self" type="application/rss+xml" />
+    <description>Depth Completion</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robintzeng.github.io/images/icon_hu33e8c61f27fd641c1e5b23db9d65383a_5197_512x512_fill_lanczos_center_2.png</url>
+      <title>Depth Completion</title>
+      <link>https://robintzeng.github.io/tag/depth-completion/</link>
+    </image>
+    
+    <item>
+      <title>Depth Completion</title>
+      <link>https://robintzeng.github.io/project/cv/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://robintzeng.github.io/project/cv/</guid>
+      <description>&lt;p&gt;123&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

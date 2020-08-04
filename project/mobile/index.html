@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Created in 1998, Eurobot is an international robotics contest.">
+  <meta name="description" content="Openvins with the learning based feature extractor -- Superpoint">
 
   
   <link rel="alternate" hreflang="en-us" href="https://robintzeng.github.io/project/mobile/">
@@ -231,14 +231,14 @@
   
   <meta property="og:site_name" content="JING AN TZENG">
   <meta property="og:url" content="https://robintzeng.github.io/project/mobile/">
-  <meta property="og:title" content="Mobile Robotics | JING AN TZENG">
-  <meta property="og:description" content="Created in 1998, Eurobot is an international robotics contest."><meta property="og:image" content="https://robintzeng.github.io/project/mobile/featured.jpg">
-  <meta property="twitter:image" content="https://robintzeng.github.io/project/mobile/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Visual Inertia Navigation | JING AN TZENG">
+  <meta property="og:description" content="Openvins with the learning based feature extractor -- Superpoint"><meta property="og:image" content="https://robintzeng.github.io/project/mobile/featured.png">
+  <meta property="twitter:image" content="https://robintzeng.github.io/project/mobile/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-03-27T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2016-04-27T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-03-27T00:00:00&#43;00:00">
   
 
   
@@ -262,14 +262,14 @@
     "@type": "WebPage",
     "@id": "https://robintzeng.github.io/project/mobile/"
   },
-  "headline": "Mobile Robotics",
+  "headline": "Visual Inertia Navigation",
   
   "image": [
-    "https://robintzeng.github.io/project/mobile/featured.jpg"
+    "https://robintzeng.github.io/project/mobile/featured.png"
   ],
   
-  "datePublished": "2016-04-27T00:00:00Z",
-  "dateModified": "2016-04-27T00:00:00Z",
+  "datePublished": "2020-03-27T00:00:00Z",
+  "dateModified": "2020-03-27T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -284,7 +284,7 @@
       "url": "https://robintzeng.github.io/images/icon_hu33e8c61f27fd641c1e5b23db9d65383a_5197_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Created in 1998, Eurobot is an international robotics contest."
+  "description": "Openvins with the learning based feature extractor -- Superpoint"
 }
 </script>
 
@@ -302,7 +302,7 @@
 
 
 
-  <title>Mobile Robotics | JING AN TZENG</title>
+  <title>Visual Inertia Navigation | JING AN TZENG</title>
 
 </head>
 
@@ -610,12 +610,10 @@
 
   
   
-    
-  
 
 
 <div class="article-container pt-3">
-  <h1>Mobile Robotics</h1>
+  <h1>Visual Inertia Navigation</h1>
 
   
 
@@ -633,7 +631,7 @@
     
       
     
-    Apr 27, 2016
+    Mar 27, 2020
   </span>
   
 
@@ -701,9 +699,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 450px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 711px; max-height: 494px;">
   <div style="position: relative">
-    <img src="/project/mobile/featured_hu04b409d3c156659be6ca79fd3f0a4cf2_102518_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    <img src="/project/mobile/featured.png" alt="" class="featured-image">
     <span class="article-header-caption">Photo by rawpixel on Unsplash</span>
   </div>
 </div>
@@ -713,7 +711,21 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <h2 id="abstract">Abstract</h2>
+<p>This project aims to adapt an open source visual
+inertial navigation framework with two modifications. First, an
+alternative visual descriptor and extractor, SuperPoint, is tested
+in place of ORB features. Secondly, an invariant error state is
+implemented in order to more effectively track the IMU pose
+uncertainty while maintaining the visual feature correction step
+in a ”dual track” system. Each of these changes is evaluated
+separately on three datasets obtained from the 
+<a href="https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets" target="_blank" rel="noopener">EuRoC MAV
+dataset</a>. Our code repository is located 
+<a href="https://github.com/robintzeng/EECS568_team_14_open_vins" target="_blank" rel="noopener">here</a>.</p>
+<h2 id="performance">Performance</h2>
+<p>Evaluate the performance on the EuRoC  MAV dataset
+
 
 
 
@@ -730,21 +742,75 @@
 
 
 
-<figure id="figure-robots">
+<figure >
 
 
-  <a data-fancybox="" href="/img/robot.JPG" data-caption="Robots">
+  <a data-fancybox="" href="/img/Traj.png" >
 
 
-  <img src="/img/robot.JPG" alt=""  >
+  <img src="/img/Traj.png" alt=""  >
 </a>
 
 
+
+</figure>
+<br>
+
+
+
+
+
   
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="/img/Table_RMSE.png" >
+
+
+  <img src="/img/Table_RMSE.png" alt=""  >
+</a>
+
+
+
+</figure>
+<br>
+
+
+
+
+
   
-  <figcaption>
-    Robots
-  </figcaption>
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="/img/Error_med.png" >
+
+
+  <img src="/img/Error_med.png" alt=""  >
+</a>
+
 
 
 </figure>
@@ -766,28 +832,53 @@
 
 
 
-<figure id="figure-map">
+<figure >
 
 
-  <a data-fancybox="" href="/img/map.png" data-caption="Map">
+  <a data-fancybox="" href="/img/Error_diff.png" >
 
 
-  <img src="/img/map.png" alt=""  >
+  <img src="/img/Error_diff.png" alt=""  >
 </a>
 
-
-  
-  
-  <figcaption>
-    Map
-  </figcaption>
 
 
 </figure>
 
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="/img/Table_Time.png" >
+
+
+  <img src="/img/Table_Time.png" alt=""  >
+</a>
+
+
+
+</figure>
+</p>
+<h2 id="video">Video</h2>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Uo4OeNeYvSM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/RPiYuu_pLAU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 
@@ -809,84 +900,6 @@
 
 <div class="share-box" aria-hidden="true">
   <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://robintzeng.github.io/project/mobile/&amp;text=Mobile%20Robotics" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://robintzeng.github.io/project/mobile/&amp;t=Mobile%20Robotics" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Mobile%20Robotics&amp;body=https://robintzeng.github.io/project/mobile/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://robintzeng.github.io/project/mobile/&amp;title=Mobile%20Robotics" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://web.whatsapp.com/send?text=Mobile%20Robotics%20https://robintzeng.github.io/project/mobile/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://robintzeng.github.io/project/mobile/&amp;title=Mobile%20Robotics" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
     
   </ul>
 </div>

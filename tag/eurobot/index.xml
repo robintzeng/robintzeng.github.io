@@ -89,10 +89,12 @@
 
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;conteset&#34;&gt;Conteset&lt;/h2&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Created in 1998, Eurobot is an international robotics contest.&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;For each team, we have to make two robots that can cooperate to finish the tasks on the given map such as throwing the ball into a bucket and stacking the color bricks in the given order.&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;When the robots finish the task, they would get some points. The team with higher scores wins.&lt;/p&gt;
 &lt;p&gt;I was the software team leader in this contest. In our team, we took charge of sensing the world and making the decision for the robot. In addition, I also made an indoor positioning system with UWB and Kalman filter which can locate the rival accurately.&lt;/p&gt;
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/Uo4OeNeYvSM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;

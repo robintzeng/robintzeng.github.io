@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://robintzeng.github.io/tag/computer-vision/</loc>
+    <lastmod>2020-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://robintzeng.github.io/tag/depth-completion/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
   </url>
@@ -18,12 +23,17 @@
   </url>
   
   <url>
-    <loc>https://robintzeng.github.io/tag/mobile-robotics/</loc>
+    <loc>https://robintzeng.github.io/tag/machine-learning/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://robintzeng.github.io/project/</loc>
+    <lastmod>2020-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://robintzeng.github.io/tag/robotics/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
   </url>
   

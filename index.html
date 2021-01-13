@@ -240,7 +240,7 @@
   <meta property="og:description" content="2nd Year Master Student in Electrical and Computer Engineering"><meta property="og:image" content="https://robintzeng.github.io/images/icon_hu33e8c61f27fd641c1e5b23db9d65383a_5197_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://robintzeng.github.io/images/icon_hu33e8c61f27fd641c1e5b23db9d65383a_5197_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-03-27T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2020-12-30T00:00:00&#43;00:00">
   
 
   
@@ -428,7 +428,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#accomplishments" data-target="#accomplishments"><span>Coursework</span></a>
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
         </li>
 
         
@@ -457,7 +457,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/#accomplishments" data-target="#accomplishments"><span>Coursework</span></a>
         </li>
 
         
@@ -842,8 +842,8 @@
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title exp-title text-muted mt-0 mb-1">Individual Study – Benchmark for Video Inpainting</h4>
-            <h4 class="card-title exp-company text-muted my-0">Team Member</h4>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Advanced Computer Vision – Improvements on Object Detection (Faster R-CNN)</h4>
+            <h4 class="card-title exp-company text-muted my-0">Software Team Leader</h4>
             <div class="text-muted exp-meta">
               Sep 2020 –
               
@@ -856,8 +856,9 @@
             </div>
             <div class="card-text">  <br>
 <ul>
-<li>Designed algorithms to classify the degree of attributes — camera motion, foreground motion and displacement — which affect the video inpainting model performance on DAVIS dataset.</li>
-<li>Evaluated the performance of the algorithm by Precision – Recall curve and ROC curve.</li>
+<li>Trained and evaluated the Faster R-CNN on PASCAL VOC 2007 with PyTorch.</li>
+<li>Decoupled the classification head and localization head and improved the mAP by 1.</li>
+<li>Introduced efficient channel attention and cross stage network to ResNet-50 backbone and increased 5 mAP..</li>
 </ul>
 </div>
           </div>
@@ -884,8 +885,8 @@
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title exp-title text-muted mt-0 mb-1">Advanced Computer Vision – Improvements on Object Detection (Faster R-CNN)</h4>
-            <h4 class="card-title exp-company text-muted my-0">Software Team Leader</h4>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Individual Study – Benchmark for Video Inpainting</h4>
+            <h4 class="card-title exp-company text-muted my-0">Team Member</h4>
             <div class="text-muted exp-meta">
               Sep 2020 –
               
@@ -898,9 +899,8 @@
             </div>
             <div class="card-text">  <br>
 <ul>
-<li>Trained and evaluated the Faster R-CNN on PASCAL VOC 2007 with PyTorch.</li>
-<li>Decoupled the classification head and localization head and improved the mAP by 1.</li>
-<li>Introduced efficient channel attention and cross stage network to ResNet-50 backbone and increased 5 mAP..</li>
+<li>Designed algorithms to classify the degree of attributes — camera motion, foreground motion and displacement — which affect the video inpainting model performance on DAVIS dataset.</li>
+<li>Evaluated the performance of the algorithm by Precision – Recall curve and ROC curve.</li>
 </ul>
 </div>
           </div>
@@ -1290,6 +1290,649 @@ data by compensation filter.</li>
   
   
 
+  <section id="projects" class="home-section wg-portfolio   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+
+    <h1>Projects</h1>
+    
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+
+
+    
+
+    
+
+      
+
+      
+      
+      
+      
+        
+      
+
+      <span class="d-none default-project-filter">*</span>
+
+      
+      
+      <div class="project-toolbar">
+        <div class="project-filters">
+          <div class="btn-toolbar">
+            <div class="btn-group flex-wrap">
+              
+                
+                
+                
+                  
+                
+                <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Robotics" class="btn btn-primary btn-lg">Robotics</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Computer-Vision" class="btn btn-primary btn-lg">Computer Vision</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Machine-Learning" class="btn btn-primary btn-lg">Machine Learning</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+
+    <div class="isotope projects-container row js-layout-row project-showcase mt-5">
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Computer-Vision js-id-Machine-Learning">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <h3 class="article-title mb-0 mt-0"><a href="/project/rcnn/" >Improvements on Object Detection (Faster R-CNN)</a></h3>
+
+      
+      <div class="article-style">
+        Modified the backbone, detection head and RPN to imporve the performace of Faster R-CNN
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      <a href="/project/rcnn/" >
+        <img src="/project/rcnn/featured_hu709bd486d76d2f0c810b457800165d21_178655_540x0_resize_lanczos_2.png" alt="">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Computer-Vision">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <h3 class="article-title mb-0 mt-0"><a href="/project/inpainting/" >Video Inpainting Benchmark</a></h3>
+
+      
+      <div class="article-style">
+        Divide the videos’ motion into binary labels and evaluated those videos’ difficulties for the video inpainting task.
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first order-md-2">
+      
+      
+      
+      <a href="/project/inpainting/" >
+        <img src="/project/inpainting/featured_hu47a3fb3df3e2635bcb7b76828353b926_543539_540x0_resize_lanczos_2.png" alt="">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Depth-Completion js-id-Computer-Vision js-id-Machine-Learning">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <h3 class="article-title mb-0 mt-0"><a href="/project/cv/" >Depth Completion</a></h3>
+
+      
+      <div class="article-style">
+        Developed a learning structure to estimate a dense depth image from sparse depth measurements.
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      <a href="/project/cv/" >
+        <img src="/project/cv/featured_huf42f7af1ff535a05a3f0944533c9df0c_88254_540x0_resize_lanczos_2.png" alt="">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Robotics js-id-Computer-Vision js-id-Machine-Learning">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <h3 class="article-title mb-0 mt-0"><a href="/project/mobile/" >Visual Inertia Navigation</a></h3>
+
+      
+      <div class="article-style">
+        Navigated the drone with Openvins and the  learning based feature extractor &ndash; Superpoint
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first order-md-2">
+      
+      
+      
+      <a href="/project/mobile/" >
+        <img src="/project/mobile/featured_hu9b7a9b82e49b7c4e8f549a1538d5dfdd_219063_540x0_resize_lanczos_2.png" alt="">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Eurobot js-id-Robotics">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <h3 class="article-title mb-0 mt-0"><a href="/project/eurobot/" >Eurobot 2018</a></h3>
+
+      
+      <div class="article-style">
+        Biult two robots and solved the tasks in Eurobot which is an international robotics contest in Europe annually.
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      <a href="/project/eurobot/" >
+        <img src="/project/eurobot/featured_hu04b409d3c156659be6ca79fd3f0a4cf2_102518_540x0_resize_q90_lanczos.jpg" alt="">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Exoskeleton js-id-Robotics">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <h3 class="article-title mb-0 mt-0"><a href="/project/exo/" >Exoskeleton</a></h3>
+
+      
+      <div class="article-style">
+        Seeked a new way to deal with the shoulder rehabilitation problem
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first order-md-2">
+      
+      
+      
+      <a href="/project/exo/" >
+        <img src="/project/exo/featured_hu785ab12a1b4ec5605531919e5d500474_182750_540x0_resize_lanczos_2.png" alt="">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
   <section id="accomplishments" class="home-section wg-accomplishments   "  >
     <div class="container">
       
@@ -1426,473 +2069,6 @@ data by compensation filter.</li>
       </div>
     
     
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="projects" class="home-section wg-portfolio   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-
-    <h1>Projects</h1>
-    
-
-  </div>
-  <div class="col-12 col-lg-8">
-
-
-
-    
-
-    
-
-      
-
-      
-      
-      
-      
-        
-      
-
-      <span class="d-none default-project-filter">*</span>
-
-      
-      
-      <div class="project-toolbar">
-        <div class="project-filters">
-          <div class="btn-toolbar">
-            <div class="btn-group flex-wrap">
-              
-                
-                
-                
-                  
-                
-                <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
-              
-                
-                
-                
-                <a href="#" data-filter=".js-id-Robotics" class="btn btn-primary btn-lg">Robotics</a>
-              
-                
-                
-                
-                <a href="#" data-filter=".js-id-Computer-Vision" class="btn btn-primary btn-lg">Computer Vision</a>
-              
-                
-                
-                
-                <a href="#" data-filter=".js-id-Machine-Learning" class="btn btn-primary btn-lg">Machine Learning</a>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    
-
-    <div class="isotope projects-container row js-layout-row project-showcase mt-5">
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="col-lg-12 project-item isotope-item js-id-Depth-Completion js-id-Computer-Vision js-id-Machine-Learning">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <h3 class="article-title mb-0 mt-0"><a href="/project/cv/" >Depth Completion</a></h3>
-
-      
-      <div class="article-style">
-        Depth completion is the technique of estimating a dense depth image from sparse depth measurements.
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-6 order-first ">
-      
-      
-      
-      <a href="/project/cv/" >
-        <img src="/project/cv/featured_huf42f7af1ff535a05a3f0944533c9df0c_88254_540x0_resize_lanczos_2.png" alt="">
-      </a>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-  
-
-
-
-
-<div class="col-lg-12 project-item isotope-item js-id-Robotics js-id-Computer-Vision js-id-Machine-Learning">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <h3 class="article-title mb-0 mt-0"><a href="/project/mobile/" >Visual Inertia Navigation</a></h3>
-
-      
-      <div class="article-style">
-        Navigate the drone with Openvins and the  learning based feature extractor &ndash; Superpoint
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-6 order-first order-md-2">
-      
-      
-      
-      <a href="/project/mobile/" >
-        <img src="/project/mobile/featured_hu9b7a9b82e49b7c4e8f549a1538d5dfdd_219063_540x0_resize_lanczos_2.png" alt="">
-      </a>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="col-lg-12 project-item isotope-item js-id-Eurobot js-id-Robotics">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <h3 class="article-title mb-0 mt-0"><a href="/project/eurobot/" >Eurobot 2018</a></h3>
-
-      
-      <div class="article-style">
-        Created in 1998, Eurobot is an international robotics contest.
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-6 order-first ">
-      
-      
-      
-      <a href="/project/eurobot/" >
-        <img src="/project/eurobot/featured_hu04b409d3c156659be6ca79fd3f0a4cf2_102518_540x0_resize_q90_lanczos.jpg" alt="">
-      </a>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-  
-
-
-
-
-<div class="col-lg-12 project-item isotope-item js-id-Exoskeleton js-id-Robotics">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <h3 class="article-title mb-0 mt-0"><a href="/project/exo/" >Exoskeleton</a></h3>
-
-      
-      <div class="article-style">
-        Seek a new way to deal with the shoulder rehabilitation problem
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-6 order-first order-md-2">
-      
-      
-      
-      <a href="/project/exo/" >
-        <img src="/project/exo/featured_hu785ab12a1b4ec5605531919e5d500474_182750_540x0_resize_lanczos_2.png" alt="">
-      </a>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-    </div>
-
   </div>
 </div>
 

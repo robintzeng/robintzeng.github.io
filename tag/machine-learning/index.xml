@@ -5,12 +5,86 @@
     <link>https://robintzeng.github.io/tag/machine-learning/</link>
       <atom:link href="https://robintzeng.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robintzeng.github.io/images/icon_hu33e8c61f27fd641c1e5b23db9d65383a_5197_512x512_fill_lanczos_center_2.png</url>
       <title>Machine Learning</title>
       <link>https://robintzeng.github.io/tag/machine-learning/</link>
     </image>
+    
+    <item>
+      <title>Improvements on Object Detection (Faster R-CNN)</title>
+      <link>https://robintzeng.github.io/project/rcnn/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://robintzeng.github.io/project/rcnn/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In this project, the main goal is to investigate the object detection model architecture to improve the mean Average Precision (mAP). In the past, researchers are dedicated to proposing new ideas in each part of the network architecture to enhance model performance. However, each method is a stand-alone little piece. It remains unclear if we can take advantage of these little pieces to push the model performance. Therefore, we aim to combine these refinements made in each architecture to investigate whether the model performance can be even better.  Our modifications are based on Faster R-CNN with Feature Pyramid Network (FPN) to improve the model performance, including backbone, Region Proposal Network, feature maps refinement and RoI head.&lt;/p&gt;
+&lt;p&gt;Our code repository is located 
+&lt;a href=&#34;https://github.com/robintzeng/mask-rcnn-Pytorch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;performance&#34;&gt;Performance&lt;/h2&gt;
+&lt;p&gt;Evaluate the performance on the PASCAL 2007 dataset
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://robintzeng.github.io/img/FAST_RCNN_result.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://robintzeng.github.io/img/FAST_RCNN_result.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;br&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://robintzeng.github.io/img/FAST_RCNN_result1.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://robintzeng.github.io/img/FAST_RCNN_result1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Depth Completion</title>
